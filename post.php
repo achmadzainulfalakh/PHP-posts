@@ -41,11 +41,11 @@ error_reporting(0);
 			<form method="POST" action="post.php" id="formpost">
 				<div class="form-group">
 					<label>Title</label>
-					<input class="form-control" type="text" name="title">
+					<input class="form-control" type="text" name="title" placeholder="Tulis Judul">
 				</div>
 				<div class="form-group">
 					<label>Title</label>
-					<textarea class="form-control" name="content" rows="10" cols="40"></textarea>
+					<textarea class="form-control" name="content" rows="10" cols="40" placeholder="Tulis Konten"></textarea>
 				</div>
 
 				<div class="form-group pull-right" style="padding-top: 5px">
@@ -57,15 +57,15 @@ error_reporting(0);
 		<div class="col-md-3">
 				<div class="form-group">
 					<label>Featured Image</label>
-					<input form="formpost" class="form-control" type="text" name="featuredimg">
+					<input form="formpost" class="form-control" type="text" placeholder="http://i50.tinypic.com/2nbf0ht.jpg" name="featuredimg">
 				</div>
 				<div class="form-group">
 					<label>Alt Image</label>
-					<input form="formpost" class="form-control" type="text" name="altimg">
+					<input form="formpost" class="form-control" type="text" placeholder="Alt text untu SEO" name="altimg">
 				</div>
 				<div class="form-group">
 					<label>Publisher</label>
-					<input form="formpost" class="form-control" type="text" name="publisher">
+					<input form="formpost" class="form-control" type="text" placeholder="Siapa anda?" name="publisher">
 				</div>
 		</div>
 	</div>
